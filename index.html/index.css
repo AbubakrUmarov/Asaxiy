@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    font-family: Georgia,  Times, serif;
+    user-zoom: none;
+}
+
+body{
+background-color: #f4f7fd;
+}
+
+.navigation{
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px #8080803a;
+
+}
+
+.navigation_container{
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    border-bottom: 1px solid #8080806c;
+}
+
+.wrapper{
+    width: 70%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border:2px solid #008DFF;
+}
+
+.searchbar > input{
+    flex: 1;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 5px;
+}
+
+.search_btn{
+    padding-left: 20px;
+    background-color: #008DFF;
+    color: #fff;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.search_btn:hover{
+    background-color: #1879da;
+}
+
+
+
+.collection{
+    display: flex;
+    align-items: center;
+}
+
+.collection_item{
+    margin: 0px 10px ;
+    list-style-type: none;
+}
+
+
+.collection_item1{
+    margin: 0px 10px ;
+    list-style-type: none;
+    display: flex;
+    color: #494848;
+    text-decoration: none;
+}
+.collection_item1 > li > a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.product_nav{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+}
+
+.div1{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 50px 40px 20px ;
+}
+
+.div2{
+    width: 640px;
+    height: 440px;
+    background-color: #fff;
+    margin: 50px 40px 20px ;
+    border-radius: 10px;
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 50px 40px 20px ;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-left: -240px;
+}
+
+.div4{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 50px 40px 20px ;
+    border-radius: 10px;
+}
+
+.div5{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 50px 40px 20px ;
+    margin-top: 300px;
+    margin-left: -620px;
+}
+
+.div2 > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.div1 > img{
+    width: 30%;
+    height: 50%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.btn1{
+    width: 70px;
+    height: 30px;
+    background-color: #0071CC;
+    border-radius: 10px;
+    border: none;
+    margin-left: 200px;
+    color: #fff;
+    margin-bottom: 1000px;
+}
+
+.p1{
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.p2{
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+}
+
+.div4 > img{
+    width: 40%;
+    height: 40%;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+
+.btn2{
+    width: 70px;
+    height: 30px;
+    background-color: #0071CC;
+    border-radius: 10px;
+    border: none;
+    /* margin-left: 200px; */
+    color: #fff;
+    margin-top: 35px;
+}
+
+.div5 > img{
+    width: 40%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.p4{
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    margin-top: 7px;
+    
+}
+
+.div3 > img{
+    width: 40%;
+    height: 40%;
+    margin-left: 120px;
+    border-radius: 10px;
+
+}
+
+.Brands{
+    width: 80%;
+    height: 200px;
+    box-shadow: 0px 8px 20px #8080803a;
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+.Brands_collection::-webkit-scrollbar{
+    display: none;
+}
+.Brands_collection{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    overflow-x:auto;
+}
+
+.brands_item{
+    margin: 0px 40px;
+    list-style-type: none;
+}
+
+.brands_item > img{
+    width: 130px;    
+}
+
+.app{
+    width: 80%;
+    height: 350px;
+    border-radius: 30px;
+    background-image: url('https://asaxiy.uz/custom-assets/images/asaxiy-app.png');
+    margin: auto;
+    background-color: #008dff;
+    background-position-y: -50%;
+    background-position-x: 10%;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+
+.app_container{
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+}
